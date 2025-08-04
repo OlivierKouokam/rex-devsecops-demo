@@ -3,7 +3,7 @@
 # Configuration pour éviter les prompts interactifs
 export DEBIAN_FRONTEND=noninteractive
 export DEBCONF_NONINTERACTIVE_SEEN=true
-
+echo "init.sh"
 echo "Script Started: $(date)"
 # Nettoyer les listes APT corrompues
 sudo rm -rf /var/lib/apt/lists/*
